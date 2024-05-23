@@ -1,0 +1,184 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  padding: 50px;
+  
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  padding: 5px;
+}
+
+
+a:hover {
+  background-color: salmon;
+  transition: .3s all ease;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+ul li {
+
+  list-style: none;
+}
+
+
+p {
+  text-align: left;
+  margin-top: 10px;
+  color: black;
+  text-shadow: 0px 0px 3px white;
+}
+
+button {
+  margin: 20px auto;
+}
+
+.main {
+  margin-top: 200px;
+}
+
+.main h1 {
+  text-shadow: 0px 0px 5px  black;
+  font-size: 60px;
+  color: white;
+}
+
+#lesson {
+  background-color: salmon;
+  border:5px solid salmon;
+  border-radius: 50px;
+  padding: 3px 10px;
+  text-transform: capitalize;
+}
+
+
+#watch {
+   background-color: salmon;
+  border:5px solid salmon;
+  border-radius: 50px;
+  padding: 3px 10px;
+  text-transform: capitalize;
+  margin-left: 10px;
+  
+}
+
+#menu {
+  display: none;
+}
+
+#gambar {
+  position:absolute;
+  top: 58px;
+  right: 50px;
+}
+
+
+body {
+  background-color: skyblue;
+}
+
+
+
+.logo h2 a{
+  font-size: 30px;
+  color: black;
+}
+
+@media only screen and (min-width:768px) and (max-width:1221px) {
+  
+  #gambar {
+    position: relative;
+  }
+  
+  .container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  p {
+    text-align: center;
+  }
+
+}
+
+
+
+@media (max-width:767px){
+  
+  
+  #gambar {
+    position: relative;
+  }
+  
+  .container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  
+  .main h1 {
+    font-size: 30px;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  #menu {
+    display: block;
+  }
+  
+  
+  #mncl  {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    display: none;
+  }
+  
+  #mncl ul li {
+    display: block;
+  padding-bottom: 50px;
+  }
+  
+  a {
+    padding: 1px;
+  }
+  #mncl ul li a {
+    font-size: 20px;
+  }
+  
+  #gambar {
+    width: 310px;
+    margin-left: 50px;
+  }
+  
+  
+}
+  
+}
+
+
+mncl.active {
+  display: block;
+  position: absolute;
+}
